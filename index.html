@@ -1,0 +1,44 @@
+ <?php  
+  include "lib/adaptador.php";
+$link=Conectarse();
+ ?>
+<!DOCTYPE html>
+
+<html lang="es">
+	<head>
+		<!-- Latest compiled and minified CSS -->
+                <link rel="shorcut" type="image/x-ico" href="/imagenes/Car_whith_Wrench_512" />
+                
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/bootstrap-theme.css">
+		<meta charset="UTF-8">
+		<style>
+			body{
+				width:50%;
+				margin-left:25%;
+				margin-top:10%	;
+				font-family: "Verdana", Times, serif;
+			}
+		</style>
+                <link type="image/x-icon" href="imagenes/Car_with_Wrench_red_16.ico" rel="icon" />
+	</head>
+<body>
+		<h1>Mecanica Barahona </h1>
+                <form role="form" action="login.php" method="post">
+		  <div class="form-group">
+			<label for="usuario">Usuario</label>
+			<input type="text" class="form-control" name="usuario" id="usuario" placeholder="Ingrese usuario">
+		  </div>
+		  <div class="form-group">
+			<label for="clave">Contraseña</label>
+			<input type="password" class="form-control" name="clave" id="clave" placeholder="Ingrese contraseña">
+		  </div>
+		  
+		  <button type="submit" class="btn btn-primary btn-lg">Ingresar</button>
+</form>
+		<footer>
+                    <br/>
+        <p>Mecanica Barahona</p>
+      </footer>
+ </body>
+ </html>

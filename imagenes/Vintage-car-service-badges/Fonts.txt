@@ -1,0 +1,15 @@
+Fonts:
+CHUNKFIVE: http://www.fontsquirrel.com/fonts/ChunkFive
+by The League of Moveable Type
+
+MONTSERRAT: http://www.fontsquirrel.com/fonts/montserrat
+by Julieta Ulanovsky
+
+GREAT LAKES NF: http://www.fontsquirrel.com/fonts/GreatLakesNF
+by Nick's Fonts
+
+LOBSTER: http://www.fontsquirrel.com/fonts/Lobster
+by Impallari Type
+
+BEBAS: http://www.fontsquirrel.com/fonts/Bebas
+by Flat-it
